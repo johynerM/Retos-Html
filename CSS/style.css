@@ -1,0 +1,98 @@
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),url(../Images/allinonemovie-minecraft-1106262_1920.png);
+    background-repeat: no-repeat;
+    background-color: #333;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #f0f0f0;
+}
+.Titulo{
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+    font-size: 3rem;
+    background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #8b00ff, #ff0000);
+    background-size: 400% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: arcoiris 6s linear infinite;
+}
+@keyframes arcoiris {
+  0% {
+    background-position: 0% center;
+  }
+  100% {
+    background-position: 200% center;
+  }
+}
+ul.lista-tarjetas li {
+  background-color: #f4f4f49d;
+  padding: 12px 16px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border-left: 4px solid #3498db; /* Un detalle estético a un lado */
+  transition: transform 0.2s;
+}
+
+/* Efecto al pasar el mouse por encima */
+ul.lista-tarjetas li:hover {
+  transform: translateX(5px);
+  background-color: #eaeaea;
+}
+nav ul li a{
+    color: #f5d20d;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+nav ul li a:hover{
+    color: #ddac30;
+    text-decoration: underline;
+}
+.Opciones{
+    color: #dfba18;
+    font-size: 1.65rem;
+}
+
+.subtitulo{
+    color: rgb(50, 245, 99);
+}
+.tabla{
+    margin:auto;
+    width: 80%;
+}
+.tabla tr, .tabla td{
+    border: 2px solid brown;
+    border-radius: 8px;
+
+}
+.tabla td {
+  background-color: rgba(139, 69, 19, 0.7);
+  color: #ffffff;
+}
+.horario p{
+    font-size: 1.5em;
+}
+
+.encabezado{
+    text-align: center;
+    font-weight:800;
+    letter-spacing: 4px;
+    font-size: 40px;
+}
+.dias{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+h3{
+    font-size: 1.7em;
+    color: #dfba18;
+}
+.consolas p{
+    font-size: 1.3em;
+}
+footer{
+    text-align: end;
+    font-size: 13px;
+}

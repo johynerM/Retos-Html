@@ -96,3 +96,62 @@ footer{
     text-align: end;
     font-size: 13px;
 }
+.tarjeta-imagenes{
+    border: 2px solid #ffd700;
+    border-radius:20px;
+    padding: 15px;
+    max-width: 400px;
+    text-align: center;
+    margin: 20px 0;
+    background-color: rgba(14, 14, 54, 0.8);
+}
+.activador{
+    display: none;
+}
+.imagen{
+    cursor: pointer;
+    display: block;
+}
+.imagen img{
+    width: 100%;
+    border-radius: 6px;
+    transition: transform 0.3s ease;    
+}
+.imagen img:hover{
+    transform: scale(1.2);
+}
+.ver_mas{
+    display: block;
+    margin-top: 8px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+.data_consolas{
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.4s ease, opacity 0.3s ease;
+    text-align: left;
+    border-top: 1px solid transparent;
+    margin-top: 0;
+}
+.activador:checked ~ .data_consolas {
+  max-height: 300px; /* Espacio suficiente para mostrar el texto */
+  opacity: 1;
+  margin-top: 15px;
+  border-top: 1px dashed #ffd700;
+  padding-top: 10px;
+}
+.data_consolas h3 {
+  color: #ffaa00;
+  margin-bottom: 5px;
+}
+
+.data_consolas ul {
+  padding-left: 20px;
+  color: #f0f0f0;
+}
+
+.data_consolas li {
+  margin-bottom: 4px;
+}

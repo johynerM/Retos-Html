@@ -32,6 +32,7 @@ ul.lista-tarjetas li {
   border-radius: 8px;
   border-left: 4px solid #3498db; /* Un detalle estético a un lado */
   transition: transform 0.2s;
+  margin-right: 50px;
 }
 
 /* Efecto al pasar el mouse por encima */
@@ -212,4 +213,50 @@ blockquote cite{
 }
 .Opiniones h2{
     color: #8b00ff ;
+}
+
+.redes{
+    text-align: center;
+    margin: 70px auto;
+    width: 90%;
+}
+.contenedor-cofres{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.cofre{
+    background-color: rgba(14, 14, 54, 0.7);
+    border: 2px solid #ffd700;
+    border-radius: 20px;
+    padding: 25px 25px;
+    width: 300px;
+    text-decoration: none;
+    overflow: hidden;
+    transition:transform 0.3s ease, box-shadow 0.3s, background-color 0.3s ease;
+}
+.cofre .icono{
+    font-size: 3rem;
+    display: block;
+    margin-bottom: 15px;
+}
+.cofre h4{
+    color: #ffaa00;
+    font-size: 1.5rem; 
+    margin-bottom: 10px;
+}
+.cofre p{
+    font-size: 1rem;
+    color: #ccc;
+}
+.cofre:hover{
+    transform: translateY(-8px) scale(1.04);
+    box-shadow: 0 10px 25px rgba(255, 215, 0, 0.4);
+    background-color:  rgba(26, 26, 80, 0.95);
+    border-color: #50f563;
+}
+.cofre:hover h4{
+    color:#50f563;
 }

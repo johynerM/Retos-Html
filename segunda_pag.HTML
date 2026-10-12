@@ -101,6 +101,44 @@
             </a>
         </div>
     </section>
+    <section id="reserva" class="reservas-consolas">
+        <h3> Aparta tu tiempo y tu consola favorita 😝 </h3>
+        <p> Tomate unos segundos para llenar el formulario de reserva :D </p>
+        <form action="#" method="post" class="formulario-reserva">
+            <div class="partes-form">
+                <label for="nombre"> Ingresa tu nombre aqui: </label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ej Pablito Clavitos" required>
+            </div>
+            <div class="partes-form">
+                <label for="wasap"> Coloca un numero para informarte de todo: </label>
+                <input type="tel" id="wasap" name="whatsapp" placeholder="313 6767676" required>
+            </div>
+            <div class="partes-form">
+                <label for="dia"> ¿Qué día nos acompañarás?</label>
+                <input type="date" id="fecha" name="fecha">
+            </div>
+            <div class="partes-form">
+                <label for="hora-llegada"> ¿A que hora llegas 😁?</label>
+                <input type="time" id="hora-llegada" name="hora-llegada" required>
+            </div>
+            <div class="partes-form">
+                <label for="hora-salida"> ¿A que hora nos dejas 😢?</label>
+                <input type="time" id="hora-salida" name="hora-salida" required>
+            </div>
+            <div class="partes-form">
+                <label for="consola-reserva"> ¿Que consola deseas usar?</label>
+                <select id="consola-reserv" name="consola-reserv" required>
+                    <option value="" disabled selected> -- Elige una Consola -- </option>
+                    <option value="Ps5"> Ps5 </option>
+                    <option value="Xbox"> Xbox series x </option>
+                    <option value="X-one"> Xbox series one </option>
+                    <option value="X-360"> Xbox series 360 </option>
+                    <option value="Nintendo"> Nintendo Swtich</option>
+                </select>
+            </div>
+            <button type="submit" class="enviar-boton"> Enviar Reserva </button>
+        </form>
+    </section>
   </main>
     <footer> 
     <p> En LaCueva tenemos espacio para todos los <em>chill boys/girls</em> reserva tu lugar en la madriguera</p>

@@ -12,15 +12,23 @@
   <nav>
     <h2 class="Opciones"> Menú de opciones </h2>
     <ul class="lista-tarjetas">
-      <li><a href="#horario"> Horario de atencion </a> </li>
+      <li><a href="index.html#ubicacion"> Donde estamos </a> </li>
+      <li><a href="index.html#horario"> Horario de atencion </a> </li>
       <li><a href="#consolas"> Que consolas tenemos </a> </li>
-      <li><a href="#juegos"> Juegos disponibles </a> </li>
+      <li><a href="index.html#juegos"> Juegos disponibles </a> </li>
+      <li><a href="index.html#opiniones"> Opiniones de nuestros clientes </a> </li>
       <li><a href="#contactos">Contactanos</a>  </li>
-      <li><a href="#trabajo"> Trabaja con nosotros </a> </li>
+      <li><a href="#reserva"> Reserva tu hora feliz </a> </li>
     </ul>
   </nav>
   <main>
-    <section class="horario">
+    <section id="ubicacion" class="ubicacion">
+      <h3> ¿Donde nos puedes encontrar? </h3>
+      <p> Puedes encontrarnos en el centro comercial PlazaMia, cerca del parque principal de floridablanca </p>
+      <div class="contenedor-mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.5447448889845!2d-73.08693992428499!3d7.0626538166618005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e68409e8216671f%3A0xacb01478a6e4b2ed!2sCentro%20Comercial%20Plaza%20Mia%2C%20Cl.%206%20%2310%20-%2032%20Loc%20119%2C%20Floridablanca%2C%20Santander!5e0!3m2!1ses!2sco!4v1791773682312!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>      </div>
+    </section>
+    <section id="horario" class="horario">
       <h3 class="subtitulo"> Disponibilidad </h3>
       <p> La informacion acerca de nuestra disponibilidad esta en la siguiente tabla: </p>
       <table class="tabla">
@@ -44,7 +52,7 @@
         </tr>
       </table>
     </section>
-    <section class="consolas">
+    <section id="consolas" class="consolas">
       <h3 class="conso"> Consolas </h3>
       <p> 🧀 pss pss pss aquí te tengo lo que buscas pequeñin no mires a otro lado aqui tienes lo que necesitas 😉</p>
       <div class="contenedor-consolas">
@@ -98,9 +106,27 @@
         </div> 
       </div>
     </section>
+    <section id="opiniones" class="Opiniones">
+      <h2> Calificaciones de nuestro <em> Hogar </em> </h2>
+      <div class="contendor-calificaciones">
+        <blockquote class="tarjeta-reseña" cite="https://facebook.com/resena1">
+          <p> ⭐⭐⭐⭐ "Me encanta este sitio, solo me gustaria que tuvieran otras consolas" </p>
+          <cite> -Luigi&67 </cite>
+        </blockquote>
+        <blockquote class="tarjeta-reseña" cite="https://facebook.com/resena2">
+          <p> ⭐ Estuvo tan lleno que tuve que esperar 1 hora para poder jugar, deberian hacer algo con esto pronto </p>
+          <cite> -tombolicia </cite>
+        </blockquote>
+        <blockquote class="tarjeta-reseña" cite="https://facebook.com/resena3">
+          <p> ⭐⭐⭐⭐⭐ Volvi a mi niñez, el ambiente, los juegos, la decoracion, todo que verrrr </p>
+          <cite> -cubitodepapel </cite>
+        </blockquote>
+      </div>
+    </section>
+    
   </main>
   <footer> 
-    <p> En La Cueva tenemos espacio para todos los <em>chill boys/girls</em> </p>
+    <p> En LaCueva tenemos espacio para todos los <em>chill boys/girls</em> reserva tu lugar en la madriguera</p>
   </footer>
 </body>
 </html>

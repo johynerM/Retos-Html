@@ -1,6 +1,5 @@
-# 🌝 LaCueva
+# 🌝 LaCueva 🌚
 
-> ✏️ **Cómo usar este modelo:** todo lo que está en citas como esta es una nota para ti, bórralo al terminar. Los textos en `[CORCHETES]` son datos que debes poner tú. Reescribe cada explicación con tus palabras y **comprueba cada cálculo en el inspector (F12)** antes de dejarlo.
 
 Sitio web de **LaCueva**, un local de alquiler de consolas en el centro comercial PlazaMia, Floridablanca (Santander).
 

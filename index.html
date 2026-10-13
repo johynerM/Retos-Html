@@ -2,134 +2,156 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title> La Cueva </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="LaCueva: sala de videojuegos en el centro comercial PlazaMia, Floridablanca. Mira horarios, juegos disponibles y opiniones de nuestros clientes.">
+  <title> La Cueva | Inicio </title>
   <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-  <header> 
-    <h1 class="Titulo"> 🌝 Bienvenidos a la <em>LaCueva</em> 🌚</h1>
+  <header class="cabecera">
+    <h1 class="cabecera__titulo"> 🌝 Bienvenidos a la <em>LaCueva</em> 🌚</h1>
   </header>
-  <nav>
-    <h2 class="Opciones"> Menú de opciones </h2>
-    <ul class="lista-tarjetas">
-      <li><a href="index.html#ubicacion"> Donde estamos </a> </li>
-      <li><a href="index.html#horario"> Horario de atencion </a> </li>
-      <li><a href="segunda_pag.HTML#consolas"> Que consolas tenemos </a> </li>
-      <li><a href="index.html#juegos"> Juegos disponibles </a> </li>
-      <li><a href="index.html#opiniones"> Opiniones de nuestros clientes </a> </li>
-      <li><a href="segunda_pag.HTML#contactos">Contactanos</a>  </li>
-      <li><a href="segunda_pag.HTML#reserva"> Reserva tu hora feliz </a> </li>
+  <nav class="menu">
+    <h2 class="menu__titulo"> Menú de opciones </h2>
+    <ul class="menu__lista">
+      <li class="menu__item"><a class="menu__enlace" href="index.html#ubicacion"> Donde estamos </a></li>
+      <li class="menu__item"><a class="menu__enlace" href="index.html#horario"> Horario de atencion </a></li>
+      <li class="menu__item"><a class="menu__enlace" href="segunda-pagina.html#consolas"> Que consolas tenemos </a></li>
+      <li class="menu__item"><a class="menu__enlace" href="index.html#juegos"> Juegos disponibles </a></li>
+      <li class="menu__item"><a class="menu__enlace" href="index.html#opiniones"> Opiniones de nuestros clientes </a></li>
+      <li class="menu__item"><a class="menu__enlace" href="segunda-pagina.html#contactos"> Contactanos </a></li>
+      <li class="menu__item"><a class="menu__enlace" href="segunda-pagina.html#reserva"> Reserva tu hora feliz </a></li>
     </ul>
   </nav>
   <main>
     <section id="ubicacion" class="ubicacion">
-      <h3> ¿Donde nos puedes encontrar? </h3>
-      <p> Puedes encontrarnos en el centro comercial PlazaMia, cerca del parque principal de floridablanca </p>
-      <div class="contenedor-mapa">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.5447448889845!2d-73.08693992428499!3d7.0626538166618005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e68409e8216671f%3A0xacb01478a6e4b2ed!2sCentro%20Comercial%20Plaza%20Mia%2C%20Cl.%206%20%2310%20-%2032%20Loc%20119%2C%20Floridablanca%2C%20Santander!5e0!3m2!1ses!2sco!4v1791773682312!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>      </div>
-    </section>
-    <section id="horario" class="horario">
-      <h3 class="subtitulo"> Disponibilidad </h3>
-      <p> La informacion acerca de nuestra disponibilidad esta en la siguiente tabla: </p>
-      <table class="tabla">
-        <tr>
-          <td class=encabezado colspan="6"> Horario de <em>LaCueva</em> </td>
-        </tr>
-        <tr class="dias">
-          <td> Lunes </tb>
-          <td> Martes </td>
-          <td> Miercoles </td>
-          <td> Jueves </td>
-          <td> Viernes</td>
-          <td> Sabado </td>
-        </tr>
-        <tr>
-          <td colspan="5"> de 8:00 a.m. hasta las 12:00 p.m. y luego volvemos de 2:00 p.m. a 6:00 p.m.</td>
-          <td> de 10:00 a.m. hasta 1:00 p.m. y luego de 2:00 p.m. a 8 p.m. </td>
-        </tr>
-        <tr>
-          <td colspan="6"> <em>Pd: Domingos de descanso total y festivos preguntar antes si habra disponibilidad</em> </td>
-        </tr>
-      </table>
-    </section>
-    <div>
-      <h2 class="sub_juegos"> Los Juegazos que les tenemos </h2>
-    </div>
-    <section id="juegos" class="juegos-disp">      
-      <p> Echate un ojazo y antojate con estas bellezas🧐</p>
-      <div class="contenedor-consolas">        
-        <div class="tarjeta-imagenes">
-            <input type="checkbox" id="interruptor" class="activador">
-            <label for="interruptor" class="imagen">
-                <img src="Images/getiai.jfif" alt="el geteA">
-                <span class="ver_mas">Haz clic para ver en que consolas esta disponible este juego</span>
-            </label>          
-            <div class="data_consolas">
-                <h3>GTA SIX</h3>
-                <ul>
-                    <li>PolyStation</li>
-                    <li>la waa</li>
-                    <li>PC gracias a ciberleek</li>
-                    <li>Formato fisico :D</li>
-                </ul>
-            </div>
-        </div>
-        <div class="tarjeta-imagenes">
-            <input type="checkbox" id="interruptor-2" class="activador">
-            <label for="interruptor-2" class="imagen">
-                <img src="Images/elcilantro.jfif" alt="Hollow">
-                <span class="ver_mas">Haz clic para ver en que consolas esta disponible este juego</span>
-            </label>          
-            <div class="data_consolas">
-                <h3> HollowGOD y SilkGOD</h3>
-                <ul>
-                    <li>Nintendini</li>
-                    <li>PC</li>
-                    <li>xbox</li>
-                    <li>ps4/5</li>
-                    <li>hasta en una papa</li>
-                </ul>
-            </div>
-        </div> 
-        <div class="tarjeta-imagenes">
-            <input type="checkbox" id="interruptor-3" class="activador">
-            <label for="interruptor-3" class="imagen">
-                <img src="Images/stevcito.jfif" alt="maincracito">
-                <span class="ver_mas">Haz clic para ver en que consolas esta disponible este juego</span>
-            </label>          
-            <div class="data_consolas">
-                <h3> Maincra</h3>
-                <ul>
-                    <li>la PC</li>
-                    <li>mierbox</li>
-                    <li>mierplay</li>
-                    <li>celuco</li>
-                </ul>
-            </div>
-        </div> 
+      <h2 class="seccion__titulo"> ¿Donde nos puedes encontrar? </h2>
+      <p> Puedes encontrarnos en el centro comercial <strong>PlazaMia</strong>, cerca del parque principal de Floridablanca </p>
+      <div class="mapa">
+        <iframe class="mapa__iframe" title="Mapa de LaCueva en el centro comercial PlazaMia" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.5447448889845!2d-73.08693992428499!3d7.0626538166618005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e68409e8216671f%3A0xacb01478a6e4b2ed!2sCentro%20Comercial%20Plaza%20Mia%2C%20Cl.%206%20%2310%20-%2032%20Loc%20119%2C%20Floridablanca%2C%20Santander!5e0!3m2!1ses!2sco!4v1791773682312!5m2!1ses!2sco" width="600" height="450" allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
       </div>
     </section>
-    <div>
-      <h2 class="opiniones-sub"> Calificaciones de nuestro <em> Hogar </em> </h2>
-    </div>
-    <section id="opiniones" class="Opiniones">
-      <div class="contendor-calificaciones">
-        <blockquote class="tarjeta-reseña" cite="https://facebook.com/resena1">
+
+    <section id="horario" class="horario">
+      <h2 class="seccion__titulo"> Disponibilidad </h2>
+      <p> La informacion acerca de nuestra disponibilidad esta en la siguiente tabla: </p>
+      <div class="tabla-caja">
+        <table class="tabla">
+          <thead>
+            <tr>
+              <th class="tabla__encabezado" colspan="2"> Horario de <em>LaCueva</em> </th>
+            </tr>
+            <tr class="tabla__dias">
+              <th> Dias </th>
+              <th> Horas </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td> Lunes a viernes </td>
+              <td> 8:00 a.m. hasta las 12:00 p.m. y luego volvemos de 2:00 p.m. a 6:00 p.m. </td>
+            </tr>
+            <tr>
+              <td> Sabado </td>
+              <td> 10:00 a.m. hasta 1:00 p.m. y luego de 2:00 p.m. a 8:00 p.m. </td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="2"> <em>Pd: Domingos de descanso total y festivos preguntar antes si habra disponibilidad</em> </td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </section>
+
+    <section id="recomendaciones" class="recomendaciones">
+      <h2 class="seccion__titulo"> Antes de venir </h2>
+      <ul class="recomendaciones__lista">
+        <li> Llega temprano los <strong>sabados</strong>, es el dia con mas gente </li>
+        <li> Reserva tu consola en la <a class="recomendaciones__enlace" href="segunda-pagina.html#reserva">pagina de reservas</a> </li>
+        <li> Si es festivo, escribenos antes para confirmar </li>
+      </ul>
+      <aside class="aviso">
+        <p> ¿Esperar 1 hora para jugar? ¡Ya no! Reserva y tu consola te espera 😎 </p>
+      </aside>
+    </section>
+
+    <section id="juegos" class="juegos">
+      <h2 class="seccion__titulo seccion__titulo--dorado"> Los Juegazos que les tenemos </h2>
+      <p class="seccion__intro"> Echate un ojazo y antojate con estas bellezas🧐</p>
+      <div class="galeria">
+        <article class="tarjeta">
+          <input type="checkbox" id="interruptor" class="tarjeta__activador">
+          <label for="interruptor" class="tarjeta__imagen">
+            <img src="images/getiai.jfif" alt="Portada del juego GTA SIX">
+            <span class="tarjeta__ayuda">Haz clic para ver en que consolas esta disponible este juego</span>
+          </label>
+          <div class="tarjeta__datos">
+            <h3>GTA SIX</h3>
+            <ul>
+              <li>PlayStation 5</li>
+              <li>Xbox Series X</li>
+              <li>PC</li>
+              <li>Formato fisico :D</li>
+            </ul>
+          </div>
+        </article>
+        <article class="tarjeta">
+          <input type="checkbox" id="interruptor-2" class="tarjeta__activador">
+          <label for="interruptor-2" class="tarjeta__imagen">
+            <img src="images/elcilantro.jfif" alt="Personaje del juego Hollow Knight Silksong">
+            <span class="tarjeta__ayuda">Haz clic para ver en que consolas esta disponible este juego</span>
+          </label>
+          <div class="tarjeta__datos">
+            <h3> HollowGOD y SilkGOD</h3>
+            <ul>
+              <li>Nintendo Switch</li>
+              <li>PC</li>
+              <li>Xbox</li>
+              <li>PS4/PS5</li>
+              <li>Hasta en una papa 🥔 (bueno, casi)</li>
+            </ul>
+          </div>
+        </article>
+        <article class="tarjeta">
+          <input type="checkbox" id="interruptor-3" class="tarjeta__activador">
+          <label for="interruptor-3" class="tarjeta__imagen">
+            <img src="images/stevcito.jfif" alt="Steve, el personaje de Minecraft">
+            <span class="tarjeta__ayuda">Haz clic para ver en que consolas esta disponible este juego</span>
+          </label>
+          <div class="tarjeta__datos">
+            <h3> Maincra</h3>
+            <ul>
+              <li>PC</li>
+              <li>Xbox</li>
+              <li>PlayStation</li>
+              <li>Celuco</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="opiniones" class="opiniones">
+      <h2 class="seccion__titulo"> Calificaciones de nuestro <em>Hogar</em> </h2>
+      <div class="opiniones__lista">
+        <blockquote class="resena" cite="https://facebook.com/resena1">
           <p> ⭐⭐⭐⭐ "Me encanta este sitio, solo me gustaria que tuvieran otras consolas" </p>
-          <cite> -Luigi&67 </cite>
+          <cite class="resena__autor"> -Luigi&amp;67 </cite>
         </blockquote>
-        <blockquote class="tarjeta-reseña" cite="https://facebook.com/resena2">
+        <blockquote class="resena" cite="https://facebook.com/resena2">
           <p> ⭐ Estuvo tan lleno que tuve que esperar 1 hora para poder jugar, deberian hacer algo con esto pronto </p>
-          <cite> -tombolicia </cite>
+          <cite class="resena__autor"> -tombolicia </cite>
         </blockquote>
-        <blockquote class="tarjeta-reseña" cite="https://facebook.com/resena3">
+        <blockquote class="resena" cite="https://facebook.com/resena3">
           <p> ⭐⭐⭐⭐⭐ Volvi a mi niñez, el ambiente, los juegos, la decoracion, todo que verrrr </p>
-          <cite> -cubitodepapel </cite>
+          <cite class="resena__autor"> -cubitodepapel </cite>
         </blockquote>
       </div>
     </section>
   </main>
-  <footer> 
+  <footer class="pie">
     <p> En LaCueva tenemos espacio para todos los <em>chill boys/girls</em> reserva tu lugar en la madriguera</p>
   </footer>
 </body>

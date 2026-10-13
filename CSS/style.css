@@ -67,7 +67,7 @@ nav{
     display: block;
     width: 100%;
 }
-.subtitulo{
+.subtitulo,.opiniones-sub{
     color: rgb(50, 245, 99);
 }
 .tabla{
@@ -190,6 +190,7 @@ footer{
     width: 80%;
     margin: 5% auto;
 }
+
 blockquote{
     background-color: rgba(72, 100, 107, 0.7);
     border: 4px solid rgba(182, 120, 5,0.7);
@@ -211,8 +212,18 @@ blockquote cite{
     font-weight: bold;
     font-size: 0.95rem;
 }
-.Opiniones h2{
-    color: #8b00ff ;
+.sub_juegos{
+    color: #ffd700;
+    font-size: 2.5rem;
+    text-align: left;
+}
+.juegos-disp p{
+    font-size: 1.5rem;
+    font-style: italic;
+}
+.opiniones-sub{
+    font-size: 2.5rem;
+    text-align: left;
 }
 
 .redes{
@@ -261,7 +272,7 @@ blockquote cite{
     color:#50f563;
 }
 .reservas-consolas{
-    width: 70%;
+    width: 60%;
     background-color: rgba(114, 82, 141, 0.6);
     border: 3px solid #ffd700;
     border-radius: 20px;
@@ -273,6 +284,7 @@ blockquote cite{
 .reservas-consolas h3{
     text-indent: 10px;
     font-size: 2rem;
+    text-align: center;
 }
 .reservas-consolas p{
     font-size: 1.2rem;

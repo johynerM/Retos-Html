@@ -1,6 +1,4 @@
-/* ==========================================
-   1. VARIABLES
-   ========================================== */
+/* asignacion de variables */
 :root{
     /* colores */
     --color-texto: #f0f0f0;
@@ -13,7 +11,7 @@
     --color-azul: #3498db;
     --color-menu: #f5d20d;
     --color-gris: #ccc;
-    /* colores con canal alfa */
+    /* colores con transparencia */
     --fondo-tarjeta: rgba(14, 14, 54, 0.8);
     --fondo-tarjeta-hover: rgba(26, 26, 80, 0.95);
     --fondo-cafe: rgba(139, 69, 19, 0.7);
@@ -26,16 +24,14 @@
     --brillo-dorado: rgba(255, 215, 0, 0.4);
     /* tipografia */
     --fuente-principal: "Trebuchet MS", Verdana, sans-serif;
-    /* espacios */
+    /* espaciados */
     --espacio-s: 0.625rem;
     --espacio-m: 1.25rem;
     --espacio-l: 2rem;
     --radio: 20px;
 }
 
-/* ==========================================
-   2. BASE
-   ========================================== */
+/* Base  */
 *, *::before, *::after{
     box-sizing: border-box;
 }
@@ -55,9 +51,7 @@ body{
     outline-offset: 3px;
 }
 
-/* ==========================================
-   3. CABECERA Y ANIMACION
-   ========================================== */
+/* Header y movimientos*/
 .cabecera__titulo{
     text-align: center;
     letter-spacing: 5px;
@@ -78,9 +72,7 @@ body{
     }
 }
 
-/* ==========================================
-   4. MENU
-   ========================================== */
+/* menu */
 .menu{
     font-size: 1.5rem;
 }
@@ -119,9 +111,7 @@ body{
     text-decoration: underline;
 }
 
-/* ==========================================
-   5. TITULOS Y TEXTOS
-   ========================================== */
+/* titulos y textos */
 h3{
     font-size: 1.7em;
     color: var(--color-dorado-oscuro);
@@ -143,9 +133,7 @@ h3{
     font-style: italic;
 }
 
-/* ==========================================
-   6. UBICACION (MAPA)
-   ========================================== */
+/* parte de la Ubi en el mapa*/
 .mapa{
     border: 3px solid var(--color-dorado);
     border-radius: 10px;
@@ -157,9 +145,7 @@ h3{
     width: 100%;
 }
 
-/* ==========================================
-   7. TABLAS (horario y precios)
-   ========================================== */
+/* configs de las tablas */
 .horario, .consolas{
     font-size: 1.5rem;
 }
@@ -203,9 +189,7 @@ h3{
     padding-bottom: var(--espacio-s);
 }
 
-/* ==========================================
-   8. LISTAS Y AVISO
-   ========================================== */
+/* listas y el aside*/
 .recomendaciones__lista{
     list-style-type: square;
     font-size: 1.3rem;
@@ -230,9 +214,7 @@ h3{
     font-size: 1.2rem;
 }
 
-/* ==========================================
-   9. TARJETAS DESPLEGABLES
-   ========================================== */
+/* tarjetas desplegables */
 .galeria{
     display: flex;
     flex-wrap: wrap;
@@ -308,9 +290,7 @@ h3{
     margin-bottom: 4px;
 }
 
-/* ==========================================
-   10. OPINIONES
-   ========================================== */
+/* Reseñas de los clientes */
 .opiniones{
     text-align: center;
     width: 80%;
@@ -336,9 +316,7 @@ h3{
     font-size: 0.95rem;
 }
 
-/* ==========================================
-   11. REDES (COFRES)
-   ========================================== */
+/* cofresitos de las redes */
 .redes{
     text-align: center;
     margin: 70px auto;
@@ -390,9 +368,7 @@ h3{
     color: var(--color-verde);
 }
 
-/* ==========================================
-   12. RESERVA (FORMULARIO)
-   ========================================== */
+/* formulario para las reservas de consolas*/
 .reserva{
     width: 90%;
     max-width: 40rem;
@@ -470,17 +446,13 @@ input[type="date"], input[type="time"]{
     transform: scale(1.02);
 }
 
-/* ==========================================
-   13. PIE DE PAGINA
-   ========================================== */
+/* el pie de pagina */
 .pie{
     text-align: end;
     font-size: 0.8rem;
 }
 
-/* ==========================================
-   14. RESPONSIVE (celular)
-   ========================================== */
+/* configuracion para que se ajuste a celular */
 @media (max-width: 480px){
     .cabecera__titulo{
         font-size: 2rem;

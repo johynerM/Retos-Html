@@ -109,7 +109,7 @@ h3{ color: var(--color-dorado-oscuro); }              /* (0,0,1) */
 
 Gana `.tarjeta__datos h3` porque tiene 1 clase contra 0 clases de `h3`. No importa que `h3` esté antes en el archivo.
 
-![Conflicto 1](capturas/cap1.jpeg)
+![Conflicto 1](Capturas/cap1.jpeg)
 
 ### Conflicto 2: el fondo del ítem del menú al pasar el mouse
 
@@ -120,7 +120,7 @@ Gana `.tarjeta__datos h3` porque tiene 1 clase contra 0 clases de `h3`. No impor
 
 Gana `.menu__item:hover` porque la pseudoclase `:hover` cuenta como una clase: 2 clases contra 1. Con el inspector activé `:hov → :hover` para verlo.
 
-![Conflicto 2](capturas/cap2.jpeg)
+![Conflicto 2](Capturas/cap2.jpeg)
 
 ### Conflicto 3: la tarjeta que se abre
 
@@ -131,7 +131,7 @@ Gana `.menu__item:hover` porque la pseudoclase `:hover` cuenta como una clase: 2
 
 Gana la segunda: `.tarjeta__activador` (clase) + `:checked` (pseudoclase) + `.tarjeta__datos` (clase) = 3 clases. El combinador `~` no suma especificidad.
 
-![Conflicto 3](capturas/cap3.jpeg)
+![Conflicto 3](Capturas/cap3.jpeg)
 
 ### Conflicto 4 (empate resuelto por orden): el color del título dorado
 
@@ -144,7 +144,7 @@ Reglas que compiten sobre el mismo `<h2 class="seccion__titulo seccion__titulo--
 
 Empatan en (0,1,0), así que gana la que está **después** en el archivo: `.seccion__titulo--dorado`. Lo comprobé moviendo la regla `--dorado` antes de la base: el título se volvió verde.
 
-![Conflicto 4](capturas/cap4.jpeg)
+![Conflicto 4](Capturas/cap4.jpeg)
 
 
 
@@ -157,7 +157,7 @@ Empatan en (0,1,0), así que gana la que está **después** en el archivo: `.sec
 
 Gana la segunda: 2 clases (`.tabla` y `:nth-child`) contra 1, aunque la primera tiene menos etiquetas.
 
-![Conflicto 5](capturas/cap5.jpeg)
+![Conflicto 5](Capturas/cap5.jpeg)
 
 ---
 
@@ -194,7 +194,7 @@ Gana la segunda: 2 clases (`.tabla` y `:nth-child`) contra 1, aunque la primera 
 
 Con `content-box` el cofre medía 354 px, y en un celular de 360 px (menos 8 px de margen del `body` por lado) solo caben 344 px, así que se salía. Con `border-box` mide 300 px y entra.
 
-![tamaño ](capturas/cap6.jpeg)
+![tamaño ](Capturas/cap6.jpeg)
 
 ### Cálculo de una segunda caja: `.tarjeta`
 
@@ -206,7 +206,7 @@ Las reseñas (`.resena`) están una debajo de otra con `margin: 20px 0`. El espa
 
 En cambio, las `.tarjeta` (también tienen `margin: 20px 0`) están dentro de `.galeria`, que es `display: flex`: en un contenedor flex los márgenes **no** se colapsan.
 
-![evidencia](capturas/cap7.jpeg)
+![evidencia](Capturas/cap7.jpeg)
 
 ---
 
@@ -265,7 +265,7 @@ Uso un solo `@media (max-width: 480px)`. Esto cambia:
 
 Además, algunas cosas ya son flexibles sin necesidad de `@media`: `.cofre` usa `width: 100%` con `max-width: 300px`, y `.tabla-caja` tiene `overflow-x: auto` para que, si una tabla no cabe, scrollee ella sola y no toda la página.
 
-![Celular](capturas/cap8.jpeg)
+![Celular](Capturas/cap8.jpeg)
 ---
 
 ## 9. Problemas y soluciones
@@ -296,10 +296,10 @@ Además, algunas cosas ya son flexibles sin necesidad de `@media`: `.cofre` usa 
 
 | Escritorio | 360 px |
 |---|---|
-| ![Inicio escritorio](capturas/pc-1.jpeg) | ![Inicio 360](capturas/360-1.jpeg) |
+| ![Inicio escritorio](Capturas/pc-1.jpeg) | ![Inicio 360](Capturas/360-1.jpeg) |
 
 ### Consolas y reservas
 
 | Escritorio | 360 px |
 |---|---|
-| ![Consolas escritorio](capturas/pc-2.jpeg) | ![Consolas 360](capturas/360-2.jpeg) |
+| ![Consolas escritorio](Capturas/pc-2.jpeg) | ![Consolas 360](Capturas/360-2.jpeg) |

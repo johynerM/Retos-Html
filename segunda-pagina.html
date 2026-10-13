@@ -9,7 +9,7 @@
 </head>
 <body>
   <header class="cabecera">
-    <h1 class="cabecera__titulo"> 🌝 Bienvenidos a la <em>LaCueva</em> 🌚</h1>
+    <h1 class="cabecera__titulo"> 🌝 Bienvenidos a la <em>LaCueva</em> 🌚</h1> <!-- Comparte el mismo header, nav y pie de pagina que index.html -->
   </header>
   <nav class="menu">
     <h2 class="menu__titulo"> Menú de opciones </h2>
@@ -24,10 +24,10 @@
     </ul>
   </nav>
   <main>
-    <section id="consolas" class="consolas">
+    <section id="consolas" class="consolas"> <!-- primer ancla de segunda-pagina.html, los tipos de consolas que ofrecen en el local -->
       <h2 class="seccion__titulo"> Consolas </h2>
       <p class="seccion__intro"> 🧀 pss pss pss aquí te tengo lo que buscas pequeñin no mires a otro lado aqui tienes lo que necesitas 😉</p>
-      <div class="galeria">
+      <div class="galeria"> <!-- las mismas tarjetas que se usan con los juegos las tenemos con las consolas -->
         <article class="tarjeta">
           <input type="checkbox" id="interruptor" class="tarjeta__activador">
           <label for="interruptor" class="tarjeta__imagen">
@@ -78,7 +78,7 @@
         </article>
       </div>
 
-      <div class="tabla-caja">
+      <div class="tabla-caja">  <!-- se crea una tabla con los precios de cada consola por hora y cuantas unidades hay de la misma -->
         <table class="tabla">
           <caption> Tarifas por hora en <abbr title="Pesos colombianos">COP</abbr> </caption>
           <thead>
@@ -128,7 +128,7 @@
       </div>
     </section>
 
-    <section id="reserva" class="reserva">
+    <section id="reserva" class="reserva"> <!-- 2da ancla de segunda-pagina.html, el formulario de las reservas -->
       <h2 class="seccion__titulo seccion__titulo--centro"> Aparta tu tiempo y tu consola favorita 😝 </h2>
       <p> Asi reservas en 3 pasos: </p>
       <ol class="reserva__pasos">
@@ -137,7 +137,7 @@
         <li> Llega a la hora acordada y ¡a jugar! </li>
       </ol>
       <p> Tomate unos segundos para llenar el formulario de reserva :D </p>
-      <form action="#" method="post" class="reserva__form">
+      <form action="#" method="post" class="reserva__form"> <!-- ponemos solo el # en el action ya que no mandamos esa informacino por ahora a ningun lado -->
         <div class="reserva__campo">
           <label for="nombre"> Ingresa tu nombre aqui: </label>
           <input type="text" id="nombre" name="nombre" placeholder="Ej Pablito Clavitos" required>
@@ -177,7 +177,7 @@
       </form>
     </section>
 
-    <section id="contactos" class="redes">
+    <section id="contactos" class="redes"> <!-- ultima ancla de segunda-pagina.html, los contactos de redes sociales del local -->
       <h2 class="seccion__titulo seccion__titulo--centro"> Contactanos </h2>
       <p class="seccion__intro"> ¿Quieres estar pendiente de lo que hagamos? pues esta sección es para ti 😉</p>
       <p> Se parte de nuestra familia todos son bienvenidos a <em>LaCueva</em> </p>
